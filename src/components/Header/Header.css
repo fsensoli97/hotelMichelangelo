@@ -1,0 +1,18 @@
+.headerContacts {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    column-gap: 4vw;
+    padding: 1.5vh 10vw;
+    background-color: rgb(1, 1, 77);
+    border-bottom: solid 1px white;
+}
+
+.headerItem {
+    color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
