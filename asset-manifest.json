@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hotelMichelangelo/static/css/main.104a202d.css",
+    "main.js": "/hotelMichelangelo/static/js/main.3614320b.js",
+    "static/js/787.d5fa4d18.chunk.js": "/hotelMichelangelo/static/js/787.d5fa4d18.chunk.js",
+    "static/media/homeView.jpg": "/hotelMichelangelo/static/media/homeView.630a037ab19689fcdb27.jpg",
+    "index.html": "/hotelMichelangelo/index.html",
+    "main.104a202d.css.map": "/hotelMichelangelo/static/css/main.104a202d.css.map",
+    "main.3614320b.js.map": "/hotelMichelangelo/static/js/main.3614320b.js.map",
+    "787.d5fa4d18.chunk.js.map": "/hotelMichelangelo/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.104a202d.css",
+    "static/js/main.3614320b.js"
+  ]
+}
