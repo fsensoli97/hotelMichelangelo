@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hotelMichelangelo/static/css/main.ada37cec.css",
-    "main.js": "/hotelMichelangelo/static/js/main.6ac39929.js",
+    "main.css": "/hotelMichelangelo/static/css/main.444e4725.css",
+    "main.js": "/hotelMichelangelo/static/js/main.b8747732.js",
     "static/js/787.d5fa4d18.chunk.js": "/hotelMichelangelo/static/js/787.d5fa4d18.chunk.js",
     "static/media/homeView.jpg": "/hotelMichelangelo/static/media/homeView.630a037ab19689fcdb27.jpg",
     "static/media/front_building.jpg": "/hotelMichelangelo/static/media/front_building.81f331d2bea49cf8d810.jpg",
@@ -11,12 +11,12 @@
     "static/media/room.jpg": "/hotelMichelangelo/static/media/room.713553afd12c7aaafc8c.jpg",
     "static/media/restaurant.jpg": "/hotelMichelangelo/static/media/restaurant.be5a4dfa70303cde08a7.jpg",
     "index.html": "/hotelMichelangelo/index.html",
-    "main.ada37cec.css.map": "/hotelMichelangelo/static/css/main.ada37cec.css.map",
-    "main.6ac39929.js.map": "/hotelMichelangelo/static/js/main.6ac39929.js.map",
+    "main.444e4725.css.map": "/hotelMichelangelo/static/css/main.444e4725.css.map",
+    "main.b8747732.js.map": "/hotelMichelangelo/static/js/main.b8747732.js.map",
     "787.d5fa4d18.chunk.js.map": "/hotelMichelangelo/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ada37cec.css",
-    "static/js/main.6ac39929.js"
+    "static/css/main.444e4725.css",
+    "static/js/main.b8747732.js"
   ]
 }
