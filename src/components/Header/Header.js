@@ -17,7 +17,7 @@ export default function Header() {
                     HM
                 </div>
                 <div className="headerItem">
-                    <a href="tel:+39 3314532937">
+                    <a href="tel:+39 3384975707">
                         <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
                     </a>
                 </div>
