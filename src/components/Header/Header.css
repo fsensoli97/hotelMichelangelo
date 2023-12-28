@@ -6,10 +6,27 @@
     padding: 1.5vh 10vw;
     background-color: rgb(1, 1, 77);
     border-bottom: solid 1px white;
+    position: relative;
 }
 
 .headerItem {
     color: white;
+}
+
+.headerTitle {
+    flex: 1;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logoContainer {
+    position: absolute;
+    left: 2%;
+    height: 100%;
+}
+
+.logo {
+    height: 100%;
 }
 
 a {

@@ -1,0 +1,34 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    row-gap: 2.5vh;
+    padding: 5vh 7vw;
+    background-color: rgb(1, 1, 77);
+}
+
+@media screen and (min-width: 800px) {
+    .footer {
+        
+    }
+}
+
+.footerItem {
+    display: flex;
+    align-items: center;
+    column-gap: 2vw;
+    color: white;
+}
+
+.contactType {
+    width: 12vw;
+}
+
+.contactValue {
+    font-size: large;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

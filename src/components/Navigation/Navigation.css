@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     background-color: rgb(1, 1, 77);
+    border-bottom: solid 1px white;
 }
 
 .navigationItem {
