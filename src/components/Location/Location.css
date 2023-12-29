@@ -31,7 +31,6 @@
     align-items: center;
     row-gap: 3vh;
     padding: 2vh 5vw;
-    padding-bottom: 7vh;
 }
 
 .locationInfoItem {
@@ -42,4 +41,16 @@
 
 .locationInfoTitle {
     font-weight: bold;
+}
+
+.locationLinksContainer {
+    padding: 2vh 5vw;
+    padding-bottom: 7vh;
+}
+
+.locationLinks {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5vh;
+    text-decoration: underline;
 }

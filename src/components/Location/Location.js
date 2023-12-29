@@ -63,20 +63,35 @@ export default function Location() {
                     <div className="locationInfoDescription">
                         Per chi giunge via mare, è possibile ormeggiare al Porto Canale o utilizzare i servizi della Nuova Darsena.
                     </div>
-                </div>
+                </div>           
+            </div>
+
+            <div className="locationLinksContainer">
                 <div className="locationInfoItem">
                     <div className="locationInfoTitle">
                         Link utili:
                     </div>
-                    <div className="locationInfoDescription"> 
-                        Autostrade per l'Italia                
-                        Aeroporto di Rimini
-                        Aeroporto di Bologna
-                        Aeroporto di Forlì
-                        Trenitalia
-                        Marina di Rimini
+                    <div className="locationInfoDescription locationLinks"> 
+                        <a target="_blank" rel='noopener noreferrer' href="https://www.autostrade.it/">
+                            Autostrade per l'Italia 
+                        </a>
+                        <a target="_blank" rel='noopener noreferrer' href="https://riminiairport.com/">
+                            Aeroporto di Rimini 
+                        </a> 
+                        <a target="_blank" rel='noopener noreferrer' href="https://www.bologna-airport.it/">
+                            Aeroporto di Bologna
+                        </a> 
+                        <a target="_blank" rel='noopener noreferrer' href="https://www.forli-airport.com/">
+                            Aeroporto di Forlì
+                        </a> 
+                        <a target="_blank" rel='noopener noreferrer' href="https://www.trenitalia.com/">
+                            Trenitalia
+                        </a> 
+                        <a target="_blank" rel='noopener noreferrer' href="https://marinadirimini.com/">
+                            Marina di Rimini
+                        </a>   
                     </div>
-                </div>             
+                </div> 
             </div>
             <Footer></Footer>
         </>
