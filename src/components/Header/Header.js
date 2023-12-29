@@ -14,7 +14,7 @@ export default function Header() {
                     </div>
                 */}     
                 <div className="headerTitle">
-                    HM
+                    <i>H. Michelangelo</i>
                 </div>
                 <div className="headerItem">
                     <a href="tel:+39 3384975707">

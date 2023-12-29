@@ -36,7 +36,7 @@ export default function Footer() {
                         <FontAwesomeIcon icon={faFacebook} size="2x"></FontAwesomeIcon>
                     </div>
                     <div className="contactValue">
-                        <a target="_blank" rel='noopener noreferrer' href="https://www.facebook.com/hotelmichelangelo/">@hotelmichelangelo</a> 
+                        <a target="_blank" rel='noopener noreferrer' href="https://www.facebook.com/hotelmichelangelo/">hotelmichelangelo/fb</a> 
                     </div>
                 </div>
                 <div className="footerItem">

@@ -1,0 +1,39 @@
+.popupContainer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popupPicContainer {
+    width: 100%;
+}
+
+.popupPic {
+    max-width: 100%;
+}
+
+.closeButton {
+    position: fixed;
+    top: 2vw;
+    right: 2vw;
+    z-index: 1;
+}
+
+.prevButton {
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
+    left: 2vw;
+    z-index: 1;
+}
+
+.nextButton {
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
+    right: 2vw;
+    z-index: 1;
+}

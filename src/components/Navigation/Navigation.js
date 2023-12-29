@@ -16,6 +16,12 @@ export default function Navigation() {
         if (url.endsWith('/location')) {
             setCurrentUrl(2);
         }
+        if (url.endsWith('/contacts')) {
+            setCurrentUrl(3);
+        }
+        if (url.endsWith('/gallery')) {
+            setCurrentUrl(4);
+        }
     }, []);
 
     return(
@@ -24,8 +30,8 @@ export default function Navigation() {
                 <div className='navigationItem' style={currentUrl === 0 ? {textDecoration: 'underline'} : {textDecoration: 'none'}}><Link className="navLink" to="/" >Home</Link></div>
                 <div className='navigationItem' style={currentUrl === 1 ? {textDecoration: 'underline'} : {textDecoration: 'none'}}><Link className="navLink" to="/prices">Prezzi</Link></div>
                 <div className='navigationItem' style={currentUrl === 2 ? {textDecoration: 'underline'} : {textDecoration: 'none'}}><Link className="navLink" to="/location">Location</Link></div>
-                <div className='navigationItem'><Link className="navLink" to="/contacts">Contatti</Link></div>
-                <div className='navigationItem'><Link className="navLink" to="/gallery">Gallery</Link></div>
+                <div className='navigationItem' style={currentUrl === 3 ? {textDecoration: 'underline'} : {textDecoration: 'none'}}><Link className="navLink" to="/contacts">Contatti</Link></div>
+                <div className='navigationItem' style={currentUrl === 4 ? {textDecoration: 'underline'} : {textDecoration: 'none'}}><Link className="navLink" to="/gallery">Gallery</Link></div>
             </div>
         </>
     );

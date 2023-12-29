@@ -1,0 +1,28 @@
+.contactsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5vh;
+    padding: 5vh 0;
+    text-align: center;
+    
+}
+
+.contactsItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1vh;
+    width: 100%;
+    padding: 1vh 0;
+    border: solid 2px rgb(225, 225, 225);
+}
+
+.contactsPicContainer {
+    width: 100%;
+    padding-bottom: 5vh;
+}
+
+.contactsPic {
+    max-width: 100%;
+}
