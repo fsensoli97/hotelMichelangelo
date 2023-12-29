@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMapMarked } from "@fortawesome/free-solid-svg-icons";
+import { faMapMarked, faCar, faPlane, faTrain, faShip } from "@fortawesome/free-solid-svg-icons";
 import Header from "../Header/Header";
 import Navigation from "../Navigation/Navigation";
 import Footer from "../../Footer/Footer";
@@ -73,22 +73,22 @@ export default function Location() {
                     </div>
                     <div className="locationInfoDescription locationLinks"> 
                         <a target="_blank" rel='noopener noreferrer' href="https://www.autostrade.it/">
-                            Autostrade per l'Italia 
+                            <u>Autostrade per l'Italia</u> <FontAwesomeIcon className="mapIcon" icon={faCar}></FontAwesomeIcon>
                         </a>
                         <a target="_blank" rel='noopener noreferrer' href="https://riminiairport.com/">
-                            Aeroporto di Rimini 
+                            <u>Aeroporto di Rimini</u> <FontAwesomeIcon className="mapIcon" icon={faPlane}></FontAwesomeIcon>
                         </a> 
                         <a target="_blank" rel='noopener noreferrer' href="https://www.bologna-airport.it/">
-                            Aeroporto di Bologna
+                            <u>Aeroporto di Bologna</u> <FontAwesomeIcon className="mapIcon" icon={faPlane}></FontAwesomeIcon>
                         </a> 
                         <a target="_blank" rel='noopener noreferrer' href="https://www.forli-airport.com/">
-                            Aeroporto di Forlì
+                            <u>Aeroporto di Forlì</u> <FontAwesomeIcon className="mapIcon" icon={faPlane}></FontAwesomeIcon>
                         </a> 
                         <a target="_blank" rel='noopener noreferrer' href="https://www.trenitalia.com/">
-                            Trenitalia
+                            <u>Trenitalia</u> <FontAwesomeIcon className="mapIcon" icon={faTrain}></FontAwesomeIcon>
                         </a> 
                         <a target="_blank" rel='noopener noreferrer' href="https://marinadirimini.com/">
-                            Marina di Rimini
+                            <u>Marina di Rimini</u> <FontAwesomeIcon className="mapIcon" icon={faShip}></FontAwesomeIcon>
                         </a>   
                     </div>
                 </div> 
