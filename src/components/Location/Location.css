@@ -6,6 +6,7 @@
     row-gap: 2vh;
     padding: 5vh 5vw;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .mapIcon {
@@ -31,6 +32,7 @@
     align-items: center;
     row-gap: 3vh;
     padding: 2vh 5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .locationInfoItem {
@@ -46,6 +48,7 @@
 .locationLinksContainer {
     padding: 2vh 5vw;
     padding-bottom: 7vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .locationLinks {

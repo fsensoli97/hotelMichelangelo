@@ -1,19 +1,22 @@
+import { useContext } from "react";
+import { LanguageContext } from "../../App";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMailBulk, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { createContext, useState } from "react";
 //import Logo from '../../gallery/logo.png';
 import './Header.css';
 
 export default function Header() {
-    const [language, setLanguage] = useState('EN');
-
+    const { language, setLanguage} = useContext(LanguageContext);
+    
     function handleLanguageClick() {
         if (language === 'EN') {
             setLanguage('IT');
+            localStorage.setItem('language', 'IT');
         }
         else {
             setLanguage('EN');
+            localStorage.setItem('language', 'EN');
         }
     }
 
@@ -53,5 +56,3 @@ export default function Header() {
         </>
     );
 }
-
-export const ThemeContext = createContext();

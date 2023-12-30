@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { LanguageContext } from "../../App";
 import Header from "../Header/Header";
 import Navigation from "../Navigation/Navigation";
 import Footer from "../../Footer/Footer";
@@ -29,6 +30,7 @@ import pic21 from '../../gallery/bar3.jpg';
 export default function Gallery() {
     const [currentImage, setCurrentImage] = useState();
     const [showPopup, setShowPopup] = useState(false);
+    const { language } = useContext(LanguageContext);
 
     const pics = [
         pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10, pic11, pic12, pic13, pic14, pic15, pic16, pic17, pic18, pic19, pic20, pic21
@@ -79,7 +81,7 @@ export default function Gallery() {
                 <Header></Header>
                 <Navigation></Navigation>
                 <div className="galleryTitle">
-                    Scopri l'Hotel Michelangelo attraverso le nostre immagini.
+                    {language === 'EN' ? "Scopri l'Hotel Michelangelo attraverso le nostre immagini." : "Discover Hotel Michelangelo through our pics."}
                 </div>
                 <div className="galleryPicsContainer">
                     {galleryPics}
