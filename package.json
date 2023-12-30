@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "https://fsensoli97.github.io/hotelMichelangelo/",
+  "homepage": "https://www.hotelmichelangelorimini.com",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
