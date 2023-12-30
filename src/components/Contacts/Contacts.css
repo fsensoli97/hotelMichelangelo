@@ -26,3 +26,11 @@
 .contactsPic {
     max-width: 100%;
 }
+
+@media screen and (min-width: 800px) {
+
+    .contactsContainer {
+        padding: 8vh 0;
+        row-gap: 8vh;
+    }
+}

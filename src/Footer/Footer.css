@@ -26,6 +26,7 @@
 
 .contactValue {
     font-size: large;
+    cursor: pointer;
 }
 
 a {
