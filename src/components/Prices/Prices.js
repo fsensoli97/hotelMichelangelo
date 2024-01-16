@@ -56,41 +56,77 @@ export default function Prices() {
 
             <div className='pricesContainer'>
                 <div className='pricesItem'>
+                    {language === 'EN' ?
                     <div className='pricePeriod'>
-                        {language === 'EN' ? 'Settimana di Pasqua' : 'Easter Week'}
-                    </div>
+                        25 Maggio - 9 Giugno
+                    </div> :
+                    <div className='pricePeriod'>
+                        25<sup>th</sup> May - 9<sup>th</sup> June
+                    </div>}
                     <div className='priceValue'>
                         <ul>
                             <li>
-                                B&B: € 45,00
+                                {language === 'EN' ? 'Pensione completa:' : 'Full board:'} € 65,00
+                            </li>
+                            <li>
+                                {language === 'EN' ? 'Mezza pensione:' : 'Half board:'} € 60,00
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div className='pricesItem'>
+                    {language === 'EN' ?
+                    <div className='pricePeriod'>
+                        10 Giugno - 4 Agosto
+                    </div> :
+                    <div className='pricePeriod'>
+                        10<sup>th</sup> June - 4<sup>th</sup> August
+                    </div>}
+                    <div className='priceValue'>
+                        <ul>
+                            <li>
+                                {language === 'EN' ? 'Pensione completa:' : 'Full board:'} € 70,00
                             </li>
                             <li>
                                 {language === 'EN' ? 'Mezza pensione:' : 'Half board:'} € 65,00
                             </li>
+                        </ul>
+                    </div>
+                </div>
+                <div className='pricesItem'>
+                    {language === 'EN' ?
+                    <div className='pricePeriod'>
+                        5 Agosto - 24 Agosto
+                    </div> :
+                    <div className='pricePeriod'>
+                        5<sup>th</sup> August - 24<sup>th</sup> August
+                    </div>}
+                    <div className='priceValue'>
+                        <ul>
+                            <li>
+                                {language === 'EN' ? 'Pensione completa:' : 'Full board:'} € 84,00
+                            </li>
+                            <li>
+                                {language === 'EN' ? 'Mezza pensione:' : 'Half board:'} € 79,00
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div className='pricesItem'>
+                    {language === 'EN' ?
+                    <div className='pricePeriod'>
+                        25 Agosto - 1 Settembre
+                    </div> :
+                    <div className='pricePeriod'>
+                        25<sup>th</sup> August - 1<sup>st</sup> September
+                    </div>}
+                    <div className='priceValue'>
+                        <ul>
                             <li>
                                 {language === 'EN' ? 'Pensione completa:' : 'Full board:'} € 70,00
                             </li>
-                        </ul>
-                    </div>
-                </div>
-                <div className='pricesItem'>
-                    {language === 'EN' ?
-                    <div className='pricePeriod'>
-                        27 Maggio - 10 Giugno
-                    </div> :
-                    <div className='pricePeriod'>
-                        27<sup>th</sup> May - 10<sup>th</sup> June
-                    </div>}
-                    <div className='priceValue'>
-                        <ul>
                             <li>
-                                B&B: € 35,00
-                            </li>
-                            <li>
-                                {language === 'EN' ? 'Mezza pensione:' : 'Half board:'} € 58,00
-                            </li>
-                            <li>
-                                {language === 'EN' ? 'Pensione completa:' : 'Full board:'} € 63,00
+                                {language === 'EN' ? 'Mezza pensione:' : 'Half board:'} € 65,00
                             </li>
                         </ul>
                     </div>
@@ -98,87 +134,18 @@ export default function Prices() {
                 <div className='pricesItem'>
                     {language === 'EN' ?
                     <div className='pricePeriod'>
-                        11 Giugno - 5 Agosto
+                        2 Settembre - 15 Settembre
                     </div> :
                     <div className='pricePeriod'>
-                        11<sup>th</sup> June - 5<sup>th</sup> August
+                        2<sup>nd</sup> September - 15<sup>th</sup> September
                     </div>}
                     <div className='priceValue'>
                         <ul>
                             <li>
-                                B&B: € 40,00
+                                {language === 'EN' ? 'Pensione completa:' : 'Full board:'} € 60,00
                             </li>
                             <li>
-                                {language === 'EN' ? 'Mezza pensione:' : 'Half board:'} € 63,00
-                            </li>
-                            <li>
-                                {language === 'EN' ? 'Pensione completa:' : 'Full board:'} € 68,00
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div className='pricesItem'>
-                    {language === 'EN' ?
-                    <div className='pricePeriod'>
-                        6 Agosto - 20 Agosto
-                    </div> :
-                    <div className='pricePeriod'>
-                        5<sup>th</sup> August - 20<sup>th</sup> August
-                    </div>}
-                    <div className='priceValue'>
-                        <ul>
-                            <li>
-                                B&B: € 50,00
-                            </li>
-                            <li>
-                                {language === 'EN' ? 'Mezza pensione:' : 'Half board:'} € 78,00
-                            </li>
-                            <li>
-                                {language === 'EN' ? 'Pensione completa:' : 'Full board:'} € 82,00
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div className='pricesItem'>
-                    {language === 'EN' ?
-                    <div className='pricePeriod'>
-                        21 Agosto - 2 Settembre
-                    </div> :
-                    <div className='pricePeriod'>
-                        21<sup>th</sup> August - 2<sup>nd</sup> September
-                    </div>}
-                    <div className='priceValue'>
-                        <ul>
-                            <li>
-                                B&B: € 40,00
-                            </li>
-                            <li>
-                                {language === 'EN' ? 'Mezza pensione:' : 'Half board:'} € 63,00
-                            </li>
-                            <li>
-                                {language === 'EN' ? 'Pensione completa:' : 'Full board:'} € 68,00
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div className='pricesItem'>
-                    {language === 'EN' ?
-                    <div className='pricePeriod'>
-                        3 Settembre - 19 Settembre
-                    </div> :
-                    <div className='pricePeriod'>
-                        3<sup>rd</sup> September - 19<sup>th</sup> September
-                    </div>}
-                    <div className='priceValue'>
-                        <ul>
-                            <li>
-                                B&B: € 35,00
-                            </li>
-                            <li>
-                                {language === 'EN' ? 'Mezza pensione:' : 'Half board:'} € 53,00
-                            </li>
-                            <li>
-                                {language === 'EN' ? 'Pensione completa:' : 'Full board:'} € 58,00
+                                {language === 'EN' ? 'Mezza pensione:' : 'Half board:'} € 55,00
                             </li>
                         </ul>
                     </div>

@@ -52,7 +52,7 @@ export default function Home() {
             <Navigation></Navigation>
             <div className='homeMainPicContainer' onClick={handleMainPicClick}>
                 <div className='homeMainPicText'>
-                    {language === 'EN' ? 'Benvenuti' : 'Welcome'}
+                    {language === 'EN' ? <div>Benvenuti<br></br>Apertura Pasqua 2024</div> : <div>Benvenuti<br></br>Open at Easter 2024</div>}
                 </div>
                 <img className='homeMainPic' src={images[index]} alt='homeMainPic'></img>
                 <div className="galleryCirclesContainer">
