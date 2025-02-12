@@ -13,7 +13,7 @@ export default function Prices() {
             <Header></Header>
             <Navigation></Navigation>
             <div className='pricesTitle'>
-                {language === 'EN' ? 'Listino prezzi 2024' : 'Price list 2024'}
+                {language === 'EN' ? 'Listino prezzi 2025' : 'Price list 2025'}
             </div>
             <div className='pricesDescriptionContainer'>
                 <div className='pricesDescriptionItem'>
