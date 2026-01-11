@@ -46,13 +46,14 @@ export default function Home() {
         }
     }
 
+    const date = new Date();
     return (
         <>
             <Header></Header>
             <Navigation></Navigation>
             <div className='homeMainPicContainer' onClick={handleMainPicClick}>
                 <div className='homeMainPicText'>
-                    {language === 'EN' ? <div>Benvenuti<br></br>Apertura Pasqua 2025</div> : <div>Benvenuti<br></br>Open at Easter 2025</div>}
+                    {language === 'EN' ? <div>Benvenuti<br></br>Apertura Pasqua {date.getFullYear()}</div> : <div>Welcome<br></br>Open at Easter {date.getFullYear()}</div>}
                 </div>
                 <img className='homeMainPic' src={images[index]} alt='homeMainPic'></img>
                 <div className="galleryCirclesContainer">

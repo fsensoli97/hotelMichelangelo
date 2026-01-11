@@ -7,13 +7,14 @@ import './Prices.css';
 
 export default function Prices() {
     const { language } = useContext(LanguageContext);
+    const date = new Date();
 
     return(
         <>
             <Header></Header>
             <Navigation></Navigation>
             <div className='pricesTitle'>
-                {language === 'EN' ? 'Listino prezzi 2025' : 'Price list 2025'}
+                {language === 'EN' ?  `Listino prezzi ${date.getFullYear()}` : `Price list ${date.getFullYear()}`}
             </div>
             <div className='pricesDescriptionContainer'>
                 <div className='pricesDescriptionItem'>
@@ -58,10 +59,10 @@ export default function Prices() {
                 <div className='pricesItem'>
                     {language === 'EN' ?
                     <div className='pricePeriod'>
-                        24 Maggio - 8 Giugno
+                        30 Maggio - 7 Giugno
                     </div> :
                     <div className='pricePeriod'>
-                        24<sup>th</sup> May - 8<sup>th</sup> June
+                        30<sup>th</sup> May - 7<sup>th</sup> June
                     </div>}
                     <div className='priceValue'>
                         <ul>
@@ -77,18 +78,18 @@ export default function Prices() {
                 <div className='pricesItem'>
                     {language === 'EN' ?
                     <div className='pricePeriod'>
-                        9 Giugno - 9 Agosto
+                        8 Giugno - 8 Agosto
                     </div> :
                     <div className='pricePeriod'>
-                        9<sup>th</sup> June - 9<sup>th</sup> August
+                        8<sup>th</sup> June - 8<sup>th</sup> August
                     </div>}
                     <div className='priceValue'>
                         <ul>
                             <li>
-                                {language === 'EN' ? 'Pensione completa:' : 'Full board:'} € 72,00
+                                {language === 'EN' ? 'Pensione completa:' : 'Full board:'} € 74,00
                             </li>
                             <li>
-                                {language === 'EN' ? 'Mezza pensione:' : 'Half board:'} € 67,00
+                                {language === 'EN' ? 'Mezza pensione:' : 'Half board:'} € 69,00
                             </li>
                         </ul>
                     </div>
@@ -96,18 +97,18 @@ export default function Prices() {
                 <div className='pricesItem'>
                     {language === 'EN' ?
                     <div className='pricePeriod'>
-                        10 Agosto - 24 Agosto
+                        9 Agosto - 23 Agosto
                     </div> :
                     <div className='pricePeriod'>
-                        10<sup>th</sup> August - 24<sup>th</sup> August
+                        9<sup>th</sup> August - 23<sup>th</sup> August
                     </div>}
                     <div className='priceValue'>
                         <ul>
                             <li>
-                                {language === 'EN' ? 'Pensione completa:' : 'Full board:'} € 86,00
+                                {language === 'EN' ? 'Pensione completa:' : 'Full board:'} € 88,00
                             </li>
                             <li>
-                                {language === 'EN' ? 'Mezza pensione:' : 'Half board:'} € 82,00
+                                {language === 'EN' ? 'Mezza pensione:' : 'Half board:'} € 83,00
                             </li>
                         </ul>
                     </div>
@@ -115,18 +116,18 @@ export default function Prices() {
                 <div className='pricesItem'>
                     {language === 'EN' ?
                     <div className='pricePeriod'>
-                        25 Agosto - 1 Settembre
+                        24 Agosto - 1 Settembre
                     </div> :
                     <div className='pricePeriod'>
-                        25<sup>th</sup> August - 1<sup>st</sup> September
+                        24<sup>th</sup> August - 1<sup>st</sup> September
                     </div>}
                     <div className='priceValue'>
                         <ul>
                             <li>
-                                {language === 'EN' ? 'Pensione completa:' : 'Full board:'} € 72,00
+                                {language === 'EN' ? 'Pensione completa:' : 'Full board:'} € 74,00
                             </li>
                             <li>
-                                {language === 'EN' ? 'Mezza pensione:' : 'Half board:'} € 67,00
+                                {language === 'EN' ? 'Mezza pensione:' : 'Half board:'} € 69,00
                             </li>
                         </ul>
                     </div>
@@ -134,10 +135,10 @@ export default function Prices() {
                 <div className='pricesItem'>
                     {language === 'EN' ?
                     <div className='pricePeriod'>
-                        2 Settembre - 15 Settembre
+                        2 Settembre - 20 Settembre
                     </div> :
                     <div className='pricePeriod'>
-                        2<sup>nd</sup> September - 15<sup>th</sup> September
+                        2<sup>nd</sup> September - 20<sup>th</sup> September
                     </div>}
                     <div className='priceValue'>
                         <ul>
