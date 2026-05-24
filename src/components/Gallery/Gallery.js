@@ -8,24 +8,35 @@ import './Gallery.css';
 import pic1 from '../../gallery/front_terrace.jpg';
 import pic2 from '../../gallery/room.jpg';
 import pic3 from '../../gallery/terrace.jpg';
-import pic4 from '../../gallery/spumante.jpg';
-import pic5 from '../../gallery/primo_pesce.jpg';
-import pic6 from '../../gallery/terrace_2.jpg';
-import pic7 from '../../gallery/building.jpg';
-import pic8 from '../../gallery/cake.jpg';
-import pic9 from '../../gallery/concerto.jpg';
-import pic10 from '../../gallery/chef.jpeg';
-import pic11 from '../../gallery/lasagna.jpeg';
-import pic12 from '../../gallery/antipasto.jpeg';
-import pic13 from '../../gallery/risotto.jpeg';
-import pic14 from '../../gallery/restaurant1.jpg';
-import pic15 from '../../gallery/bar1.jpg';
-import pic16 from '../../gallery/terrace3.jpg';
-import pic17 from '../../gallery/restaurant2.jpg';
-import pic18 from '../../gallery/bar2.jpg';
-import pic19 from '../../gallery/terrace4.jpg';
-import pic20 from '../../gallery/restaurant3.jpg';
-import pic21 from '../../gallery/bar3.jpg';
+
+import pic4 from '../../gallery/bar1_2026.jpg';
+import pic5 from '../../gallery/ristorante1_2026.jpg';
+import pic6 from '../../gallery/bureau1_2026.jpg';
+import pic7 from '../../gallery/terrazzo1_2026.jpg';
+import pic8 from '../../gallery/panorama_2026.jpg';
+import pic9 from '../../gallery/bar2_2026.jpg';
+import pic10 from '../../gallery/ristorante2_2026.jpg';
+import pic11 from '../../gallery/bureau2_2026.jpg';
+import pic12 from '../../gallery/terrazzo2_2026.jpg';
+
+import pic13 from '../../gallery/spumante.jpg';
+import pic14 from '../../gallery/primo_pesce.jpg';
+import pic15 from '../../gallery/terrace_2.jpg';
+import pic16 from '../../gallery/building.jpg';
+import pic17 from '../../gallery/cake.jpg';
+import pic18 from '../../gallery/concerto.jpg';
+import pic19 from '../../gallery/chef.jpeg';
+import pic20 from '../../gallery/lasagna.jpeg';
+import pic21 from '../../gallery/antipasto.jpeg';
+import pic22 from '../../gallery/risotto.jpeg';
+import pic23 from '../../gallery/restaurant1.jpg';
+import pic24 from '../../gallery/bar1.jpg';
+import pic25 from '../../gallery/terrace3.jpg';
+import pic26 from '../../gallery/restaurant2.jpg';
+import pic27 from '../../gallery/bar2.jpg';
+import pic28 from '../../gallery/terrace4.jpg';
+import pic29 from '../../gallery/restaurant3.jpg';
+import pic30 from '../../gallery/bar3.jpg';
 
 export default function Gallery() {
     const [currentImage, setCurrentImage] = useState();
@@ -33,7 +44,8 @@ export default function Gallery() {
     const { language } = useContext(LanguageContext);
 
     const pics = [
-        pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10, pic11, pic12, pic13, pic14, pic15, pic16, pic17, pic18, pic19, pic20, pic21
+        pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10, pic11, pic12, pic13, pic14, pic15, pic16, pic17, pic18, pic19, pic20, pic21, pic22,
+        pic23, pic24, pic25, pic26, pic27, pic28, pic29, pic30
     ];
 
     function handleClickImage(image) {
