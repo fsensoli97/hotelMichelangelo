@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.63c5b9ae.css",
-    "main.js": "/static/js/main.823f72fb.js",
+    "main.js": "/static/js/main.117d674e.js",
     "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
     "static/media/terrace4.jpg": "/static/media/terrace4.957606c5c50564fa3b9d.jpg",
+    "static/media/panorama_2026.jpg": "/static/media/panorama_2026.6f8f1e8859db97e79978.jpg",
     "static/media/terrace3.jpg": "/static/media/terrace3.b49562d01c4c70a5b886.jpg",
     "static/media/bar2.jpg": "/static/media/bar2.a80d7f36c8b004d7907b.jpg",
     "static/media/bar1.jpg": "/static/media/bar1.da212bbd5a48e058d691.jpg",
@@ -17,9 +18,17 @@
     "static/media/concerto.jpg": "/static/media/concerto.89d1b3cb5d92cac38b70.jpg",
     "static/media/front_building.jpg": "/static/media/front_building.81f331d2bea49cf8d810.jpg",
     "static/media/front_terrace.jpg": "/static/media/front_terrace.8e209e9ba53f3e3b4431.jpg",
+    "static/media/ristorante1_2026.jpg": "/static/media/ristorante1_2026.a2587d3286b1afa6c47d.jpg",
     "static/media/lasagna.jpeg": "/static/media/lasagna.b3b0f194397b2bdc874f.jpeg",
+    "static/media/bureau2_2026.jpg": "/static/media/bureau2_2026.6e1eaca00f05dd433261.jpg",
     "static/media/chef.jpeg": "/static/media/chef.ef6419ab79fb8c6e7546.jpeg",
+    "static/media/ristorante2_2026.jpg": "/static/media/ristorante2_2026.2a17c73a009705e90981.jpg",
+    "static/media/bureau1_2026.jpg": "/static/media/bureau1_2026.3fbaecd716bad52a9831.jpg",
     "static/media/terrace.jpg": "/static/media/terrace.ecb7e457e4184e35b992.jpg",
+    "static/media/terrazzo2_2026.jpg": "/static/media/terrazzo2_2026.7332c4d986ed5f6987d4.jpg",
+    "static/media/terrazzo1_2026.jpg": "/static/media/terrazzo1_2026.8911079464be1cb9c188.jpg",
+    "static/media/bar1_2026.jpg": "/static/media/bar1_2026.dd9147e706a94f333dbb.jpg",
+    "static/media/bar2_2026.jpg": "/static/media/bar2_2026.ad3dfa215feef5720340.jpg",
     "static/media/risotto.jpeg": "/static/media/risotto.e46ef63679696ff56114.jpeg",
     "static/media/cake.jpg": "/static/media/cake.3da6ba317b3632dc9a8a.jpg",
     "static/media/building.jpg": "/static/media/building.04c61e45c4e2a2bcb0bf.jpg",
@@ -30,11 +39,11 @@
     "static/media/restaurant.jpg": "/static/media/restaurant.be5a4dfa70303cde08a7.jpg",
     "index.html": "/index.html",
     "main.63c5b9ae.css.map": "/static/css/main.63c5b9ae.css.map",
-    "main.823f72fb.js.map": "/static/js/main.823f72fb.js.map",
+    "main.117d674e.js.map": "/static/js/main.117d674e.js.map",
     "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63c5b9ae.css",
-    "static/js/main.823f72fb.js"
+    "static/js/main.117d674e.js"
   ]
 }
